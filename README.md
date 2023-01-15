@@ -1,1 +1,8 @@
 # Log-Data-Visualizer
+
+- We leave a lot of digital footprints when we interact with any type of technology. We can get time-stamped log data of these interactions. Analyzing the way a user interacts with any data conveys a lot about what they are thinking. But this is a very cognition-intensive task where we will be required to remember or annotate a lot of information to keep track of the interactive activities along with the data that was interacted with. 
+- The log data itself being highly textual makes the process even more tedious. If there was a way to represent this kind of data visually then it will be possible to understand the human rationale and strategies to a greater extent, even in a limited amount of time. Our application – Log Data Visualizer – aims to provide an effective solution for this very issue.
+- We have created a visualization structure that will convert a large amount of textual log data into a visual summary so that it is easy to interact and gain insights from the given log data. This paper presents our current design, along with our future plans. We filtered and processed the sample dataset and created word clouds. We created a framework with two levels – upper and lower. The upper level shows a Treemap and the lower level shows a bar chart, bubble chart, word cloud, and a table of details. We explored the various aspects of data representation and integrated multiple visualizations in our design model to accommodate the different types of data and their connotations. We also discuss the pros and cons of this tool and the scope for improvement of this visual design.
+- Tech Stack
+  - Back-end: Python, NLP, Google Colab
+  - Front-end: JavaScript, Tableau
